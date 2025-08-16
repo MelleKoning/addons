@@ -1158,6 +1158,19 @@
 "h": "BirthdaysGramplet"
 },
 {
+"n": "Chat With Tree Interactive Addon",
+"i": "ChatWithTree",
+"t": 10,
+"d": "Chat With Tree with the help of AI Large Language Model",
+"v": "0.0.2",
+"g": "6.0",
+"s": 0,
+"z": "ChatWithTree.addon.tgz",
+"rm": [
+"litellm"
+]
+},
+{
 "n": "Horloge",
 "i": "Clock Gramplet",
 "t": 10,
