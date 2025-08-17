@@ -1162,7 +1162,7 @@
 "i": "ChatWithTree",
 "t": 10,
 "d": "Chat With Tree with the help of AI Large Language Model",
-"v": "0.0.4",
+"v": "0.0.6",
 "g": "6.0",
 "s": 0,
 "z": "ChatWithTree.addon.tgz",
