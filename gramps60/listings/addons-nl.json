@@ -1158,11 +1158,11 @@
 "h": "BirthdaysGramplet"
 },
 {
-"n": "Chat With Tree Interactive Addon",
+"n": "ChatWithTree: Klets met de stamboom interactive plugin",
 "i": "ChatWithTree",
 "t": 10,
-"d": "Chat With Tree with the help of AI Large Language Model",
-"v": "0.0.9",
+"d": "Klets met de Stamboom met de hulp van een AI Groot Taal Model",
+"v": "0.0.13",
 "g": "6.0",
 "s": 0,
 "z": "ChatWithTree.addon.tgz",
