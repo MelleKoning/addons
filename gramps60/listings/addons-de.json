@@ -1161,14 +1161,15 @@
 "n": "Chat With Tree Interactive Addon",
 "i": "ChatWithTree",
 "t": 10,
-"d": "Chat With Tree with the help of AI Large Language Model",
-"v": "0.0.14",
+"d": "Chat With Tree with the help of AI Large Language Model, needs litellm module",
+"v": "0.0.16",
 "g": "6.0",
-"s": 0,
+"s": 1,
 "z": "ChatWithTree.addon.tgz",
 "rm": [
 "litellm"
-]
+],
+"a": 2
 },
 {
 "n": "Uhr",
