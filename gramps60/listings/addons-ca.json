@@ -15,7 +15,7 @@
 "i": "DescendantBook",
 "t": 0,
 "d": "Produces one or more descendant reports based on a supplied query.",
-"v": "1.1.33",
+"v": "1.1.34",
 "g": "6.0",
 "s": 3,
 "z": "DescendantBooks.addon.tgz",
@@ -37,7 +37,7 @@
 "i": "DetailedDescendantBook",
 "t": 0,
 "d": "Produces one or more detailed descendant reports based on a supplied query.",
-"v": "1.1.33",
+"v": "1.1.34",
 "g": "6.0",
 "s": 3,
 "z": "DescendantBooks.addon.tgz",
@@ -77,11 +77,11 @@
 "h": "Addon:Family_Tree"
 },
 {
-"n": "Heatmap",
+"n": "Mapa de calor",
 "i": "Heatmap",
 "t": 0,
 "d": "Create a heatmap web report.",
-"v": "1.2.7",
+"v": "1.2.8",
 "g": "6.0",
 "s": 3,
 "z": "Heatmap.addon.tgz",
@@ -136,7 +136,7 @@
 "i": "PedigreeChart",
 "t": 0,
 "d": "Alternate version of the traditional pedigree chart.",
-"v": "1.0.40",
+"v": "1.0.41",
 "g": "6.0",
 "s": 3,
 "z": "PedigreeChart.addon.tgz",
@@ -192,7 +192,7 @@
 "t": 0,
 "d": "Creates an HTML webpage that uses JavaScript to show a pedigree block diagram arranged vertically by birth date",
 "v": "0.0.12",
-"g": "5.2",
+"g": "6.0",
 "s": 3,
 "z": "TimePedigreeHTML.addon.tgz",
 "h": "Addon:Timeline_Pedigree_Report"
@@ -201,7 +201,7 @@
 "n": "Fer informe",
 "i": "TodoReport",
 "t": 0,
-"d": "Elabora una llista de totes les notes amb una etiqueta determinada juntament amb els registres a qu\u00e8 fa refer\u00e8ncia, la persona, la fam\u00edlia, l\u2019esdeveniment, etc.",
+"d": "Elabora una llista de totes les notes amb una etiqueta determinada juntament amb els registres a qu\u00e8 fa refer\u00e8ncia, la persona, la fam\u00edlia, l'esdeveniment, etc.",
 "v": "1.2.39",
 "g": "6.0",
 "s": 3,
@@ -209,22 +209,22 @@
 "h": "Addon:ToDoReport"
 },
 {
-"n": "Ancestral Collapsible Tree",
+"n": "Arbre ancestral colapsable",
 "i": "d3-ancestralcollapsibletree",
 "t": 0,
 "d": "Generates a web page with a graphical representation of ancestors (SVG) represented as a Collapsible Tree Layout from the D3.js JavaScript library.",
-"v": "1.0.40",
+"v": "1.0.41",
 "g": "6.0",
 "s": 3,
 "z": "D3Charts.addon.tgz",
 "h": "Addon:D3_Ancestral_and_Descendant_Charts#Ancestral_Collapsible_Tree"
 },
 {
-"n": "Diagrama en ventall d\u2019avantpassats",
+"n": "Diagrama en ventall d'avantpassats",
 "i": "d3-ancestralfanchart",
 "t": 0,
 "d": "Genera una p\u00e0gina web amb una representaci\u00f3 gr\u00e0fica dels avantpassats (SVG) en forma de diagrama en ventall, utilitzant la biblioteca JavaScript D3.js.",
-"v": "1.0.40",
+"v": "1.0.41",
 "g": "6.0",
 "s": 3,
 "z": "D3Charts.addon.tgz",
@@ -235,7 +235,7 @@
 "i": "d3-descendantindentedtree",
 "t": 0,
 "d": "Generates a web page with a graphical representation of descendants (SVG) representedas a Collapsible Indented Tree Layout from the D3.js JavaScript library.",
-"v": "1.0.40",
+"v": "1.0.41",
 "g": "6.0",
 "s": 3,
 "z": "D3Charts.addon.tgz",
@@ -268,7 +268,7 @@
 "i": "descendantspacetree",
 "t": 0,
 "d": "Generates a web page with an interactive graph of descendants represented as a Space Tree for efficient viewing, even with many descendants or generations.",
-"v": "1.1.1",
+"v": "1.1.2",
 "g": "6.0",
 "s": 3,
 "z": "DescendantSpaceTree.addon.tgz",
@@ -300,7 +300,7 @@
 "n": "Arbre d'Avantpassats",
 "i": "gt_ancestor",
 "t": 0,
-"d": "Arbre d\u2019avantpassats utilitzant LaTeX genealogytree",
+"d": "Arbre d'avantpassats utilitzant LaTeX genealogytree",
 "v": "1.0.23",
 "g": "6.0",
 "s": 3,
@@ -321,10 +321,10 @@
 "a": 1
 },
 {
-"n": "Arbre d\u2019avis",
+"n": "Arbre d'avis",
 "i": "gt_grandparent",
 "t": 0,
-"d": "Arbre d\u2019avis utilitzant LaTeX genealogytree",
+"d": "Arbre d'avis utilitzant LaTeX genealogytree",
 "v": "1.0.23",
 "g": "6.0",
 "s": 3,
@@ -361,7 +361,7 @@
 "i": "networkchart",
 "t": 0,
 "d": "Generates a family network chart.",
-"v": "0.0.31",
+"v": "0.0.33",
 "g": "6.0",
 "s": 3,
 "z": "NetworkChart.addon.tgz",
@@ -394,10 +394,10 @@
 "h": "Addon:Number_of_Descendants_Quickview"
 },
 {
-"n": "All Names of All People",
+"n": "Tots els noms de tothom",
 "i": "allnames",
 "t": 1,
-"d": "Display all names of all people",
+"d": "Mostra els noms de tothom",
 "v": "1.0.35",
 "g": "6.0",
 "s": 3,
@@ -405,10 +405,10 @@
 "h": "Addon:All_Names_Quickview"
 },
 {
-"n": "Biography",
+"n": "Biografia",
 "i": "biographyquickview",
 "t": 1,
-"d": "Display a text biography",
+"d": "Mostra una biografia de text",
 "v": "1.0.18",
 "g": "6.0",
 "s": 3,
@@ -494,7 +494,7 @@
 "h": "https://github.com/gramps-project/addons-source/blob/maintenance/gramps60/FixCoords"
 },
 {
-"n": "PlaceCompletion",
+"n": "Compleci\u00f3 de llocs",
 "i": "PlaceCompletion",
 "t": 2,
 "d": "Provides a browsable list of selected places, with possibility to complete/parse/set the attribute fields.",
@@ -571,7 +571,7 @@
 "h": "Addon:BirthOrderTool"
 },
 {
-"n": "Calcular Dates Estimades",
+"n": "Calcular dates estimades",
 "i": "calculateestimateddates",
 "t": 2,
 "d": "Calcula les dates estimades de naixement i defunci\u00f3.",
@@ -631,7 +631,7 @@
 "i": "gramps_web_sync",
 "t": 2,
 "d": "Synchronizes a local database with a Gramps Web instance.",
-"v": "1.3.3",
+"v": "1.3.5",
 "g": "6.0",
 "s": 3,
 "z": "GrampsWebSync.addon.tgz",
@@ -680,6 +680,18 @@
 "s": 3,
 "z": "NoteCleanup.addon.tgz",
 "h": "Addon:NoteCleanupTool"
+},
+{
+"n": "Display relations and distances with the home person",
+"i": "relationtab",
+"t": 2,
+"d": "Will display relational informations with the home person",
+"v": "1.1.4",
+"g": "6.0",
+"s": 1,
+"z": "RelID.addon.tgz",
+"h": "Addon:RelID",
+"a": 2
 },
 {
 "n": "S3 Media Uploader",
@@ -733,7 +745,7 @@
 "i": "JSON Import",
 "t": 3,
 "d": "This is a JSON import",
-"v": "1.0.25",
+"v": "1.0.26",
 "g": "6.0",
 "s": 3,
 "z": "JSON.addon.tgz",
@@ -768,7 +780,7 @@
 "i": "JSON Export",
 "t": 4,
 "d": "This is a JSON export",
-"v": "1.0.25",
+"v": "1.0.26",
 "g": "6.0",
 "s": 3,
 "z": "JSON.addon.tgz",
@@ -801,7 +813,7 @@
 "n": "Persona GEXF",
 "i": "ex_person_gexf",
 "t": 4,
-"d": "GEXF s\u2019utilitza en moltes aplicacions de gr\u00e0fics de xarxa.",
+"d": "GEXF s'utilitza en moltes aplicacions de gr\u00e0fics de xarxa.",
 "v": "1.0.3",
 "g": "6.0",
 "s": 2,
@@ -1147,7 +1159,7 @@
 "a": 0
 },
 {
-"n": "Birthdays",
+"n": "Aniversaris",
 "i": "Birthdays",
 "t": 10,
 "d": "a gramplet that displays the birthdays of the living people",
@@ -1162,7 +1174,7 @@
 "i": "ChatWithTree",
 "t": 10,
 "d": "Chat With Tree with the help of AI Large Language Model, needs litellm module",
-"v": "0.0.25",
+"v": "0.0.26",
 "g": "6.0",
 "s": 1,
 "z": "ChatWithTree.addon.tgz",
@@ -1185,11 +1197,11 @@
 "a": 2
 },
 {
-"n": "Collections Clipboard",
+"n": "Porta-retalls de col\u00b7leccions",
 "i": "Collections Clipboard Gramplet",
 "t": 10,
 "d": "Gramplet for grouping collections of items to aid in data entry.",
-"v": "1.0.47",
+"v": "1.0.48",
 "g": "6.0",
 "s": 3,
 "z": "ClipboardGramplet.addon.tgz",
@@ -1230,7 +1242,7 @@
 "a": 1
 },
 {
-"n": "Date Calculator",
+"n": "Calculadora de dates",
 "i": "DateCalculator",
 "t": 10,
 "d": "Perform date math calculations",
@@ -1245,7 +1257,7 @@
 "i": "Deep Connections Gramplet",
 "t": 10,
 "d": "Gramplet que mostra les relacions profundes entre la persona activa i familiars",
-"v": "1.0.45",
+"v": "1.0.47",
 "g": "6.0",
 "s": 3,
 "z": "DeepConnectionsGramplet.addon.tgz",
@@ -1267,7 +1279,7 @@
 "i": "Edit Image Exif Metadata",
 "t": 10,
 "d": "Gramplet per veure, editar i desar metadades Exif d'imatge",
-"v": "2.0.15",
+"v": "2.0.16",
 "g": "6.0",
 "s": 3,
 "z": "EditExifMetadata.addon.tgz",
@@ -1322,7 +1334,7 @@
 "i": "GetGOV Gramplet",
 "t": 10,
 "d": "Gramplet to get places from the GOV database",
-"v": "1.0.23",
+"v": "1.0.24",
 "g": "6.0",
 "s": 3,
 "z": "GetGOV.addon.tgz",
@@ -1356,7 +1368,7 @@
 "h": "Addon:GrampyScript"
 },
 {
-"n": "Cap\u00e7aleres de Not\u00edcies",
+"n": "Cap\u00e7aleres de not\u00edcies",
 "i": "Headline News",
 "t": 10,
 "d": "Gramplet that shows the latest Gramps news",
@@ -1371,7 +1383,7 @@
 "i": "HistContext",
 "t": 10,
 "d": "Lists relevant historical events during the lifetime of a Person",
-"v": "0.2.29",
+"v": "0.2.30",
 "g": "6.0",
 "s": 3,
 "z": "HistContext.addon.tgz",
@@ -1416,11 +1428,11 @@
 "i": "MediaBrowser",
 "t": 10,
 "d": "Gramplet que mostra els detalls d'una persona",
-"v": "1.0.38",
+"v": "1.0.39",
 "g": "6.0",
 "s": 3,
 "z": "MediaBrowser.addon.tgz",
-"h": "Addon:MediaMerge"
+"h": "Addon:MediaBrowserGramplet"
 },
 {
 "n": "Gramplet de Notes",
@@ -1540,7 +1552,7 @@
 "h": "RelatedRelativesGramplet"
 },
 {
-"n": "Search",
+"n": "Cerca",
 "i": "Search Gramplet",
 "t": 10,
 "d": "Gramplet for search objects in database.",
@@ -1610,6 +1622,22 @@
 "psycopg2"
 ],
 "h": "Addon:PostgreSQL",
+"a": 1
+},
+{
+"n": "PostgreSQL Enhanced",
+"i": "postgresqlenhanced",
+"t": 12,
+"d": "Advanced PostgreSQL backend with JSONB storage, graph database support (Apache AGE), vector similarity (pgvector), and AI/ML capabilities. For advanced users. Requires PostgreSQL 15+ with extensions. Gramps Web compatible.",
+"v": "1.5.2",
+"g": "6.0",
+"s": 3,
+"z": "PostgreSQLEnhanced.addon.tgz",
+"rm": [
+"psycopg"
+],
+"re": [],
+"h": "https://github.com/gramps-project/addons-source/wiki/PostgreSQLEnhanced",
 "a": 1
 },
 {
@@ -1751,7 +1779,7 @@
 "n": "Fam\u00edlies que coincideixen amb <event filter>",
 "i": "familieswitheventfiltermatch",
 "t": 13,
-"d": "Coincideix amb les fam\u00edlies que compleixen un filtre d\u2019esdeveniments",
+"d": "Coincideix amb les fam\u00edlies que compleixen un filtre d'esdeveniments",
 "v": "1.0.22",
 "g": "6.0",
 "s": 3,
@@ -1806,7 +1834,7 @@
 "n": "Persones amb <count> de <event>",
 "i": "peopleeventscount",
 "t": 13,
-"d": "Coincideix amb persones que tenen esdeveniments d\u2019un tipus i nombre determinats.",
+"d": "Coincideix amb persones que tenen esdeveniments d'un tipus i nombre determinats.",
 "v": "1.0.9",
 "g": "6.0",
 "s": 3,
