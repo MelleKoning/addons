@@ -1185,6 +1185,18 @@
 "a": 0
 },
 {
+"n": "Chat With Tree Interactive Addon (MCP)",
+"i": "ChatWithTreeMCP",
+"t": 10,
+"d": "Chat With Tree using an in-process MCP-style tool service and a Large Language Model. Uses only the Python standard library (no extra modules required).",
+"v": "0.1.3",
+"g": "6.0",
+"s": 3,
+"z": "ChatWithTreeMCP.addon.tgz",
+"h": "Addon:ChatWithTree",
+"a": 0
+},
+{
 "n": "Klok",
 "i": "Clock Gramplet",
 "t": 10,
