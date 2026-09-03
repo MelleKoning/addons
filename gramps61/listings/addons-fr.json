@@ -2,9 +2,9 @@
 {
 "n": "Chat With Tree Interactive Addon (MCP)",
 "i": "ChatWithTreeMCP",
-"t": 10,
+"t": 8,
 "d": "Chat With Tree using an in-process MCP-style tool service and a Large Language Model. Uses only the Python standard library (no extra modules required).",
-"v": "0.1.6",
+"v": "0.1.7",
 "g": "6.1",
 "s": 3,
 "z": "ChatWithTreeMCP.addon.tgz",
